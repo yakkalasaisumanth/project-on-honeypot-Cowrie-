@@ -1,0 +1,87 @@
+ssh —p2222 rootm1@.@.2.15
+The authenticity of host '[10.0.2.15]:2222 ([10.0.2.15]:2222)' can't be established.
+ED25519 key fingerprint is SHA256:kHXIo72®LvaE52qDEsMeinA25cXGEV+46Ih0WZgJI.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '[10.@.2.15]:2222' (E025519) to the list of known hosts.
+roota10.@.2.15's password:
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+rootasvr04:~# whoami
+root
+rootasvr04:~# ls
+rootasvr04:~# cd ..
+rootasvr04:/# ls
+bin boot dev etc home initrd.img lib lost+found media mnt opt proc root run
+sbin selinux srv sys test2 tmp usr var vmlinuz
+rootasvr04:/# cd user
+bash: cd: user: No such file or directory
+rootasvr04:/# Cd usr
+rootasvr04z/usr# ls
+bin games include lib local sbin share src
+rootasvr04z/usr# Cd games
+rootasvr04z/usr/games# ls
+rootasvr®4:/usr/games# cd ..
+rootmsvr®4:/usr# cd local
+rootasvr04i/tmp# Cd ..
+rootmsvr04:/# cd lost+found/
+rootmsvr04:/lost+found# ls
+rootmsvr04z/lost+found# cd ..
+rootmsvr04:/# cd media
+rootmsvr04z/media# ls
+cdrom cdrom0
+rootasvr04z/media# cd cdrom
+rootasvr04z/media/cdrom# ls
+rootmsvr04z/media/cdrom# cd ..
+rootmsvr04:/media# cd..
+—bash: cd..: command not found
+rootmsvr04z/media# Cd ..
+rootmsvr04:/# Cd test2
+bash: cd: test2: Not a directory
+rootmsvr04:/# cat test2
+ELF>xmaom8aaayy °.shstrtab.text
+xaxy
+rootmsvr04:/# ls ~al
+drwxr—xr—x 1 root root 4096 2013—04—05 12:03 .
+drwxr—xr—x 1 root root 4096 2013—04—05 12:03 ..
+drwxr—xr—x 1 root root 4096 2013—04—05 11:53 bin
+drwxr—xr—x 1 root root 4096 2013—04—05 12:02 boot
+drwxr—xr—x 1 root root 3060 2013—04—05 12:03 dev
+drwxr—xr—x 1 root root 4096 2013—04—05 12:06 etc
+drwxr—xr—x 1 root root 4096 2013-04—05 12:02 home
+lrwxrwxrwx 1 root root 32 2013—04-05 11:53 initrd.img —9 /boot/initrd.img—3.2.0—4—686—pae
+drwxr—xr—x 1 root root 4096 2013—04—05 12:01 lib
+drwx—————— 1 root root 16384 2013—04—05 11:52 lost+found
+drwxr—xr—x 1 root root 4096 2013—04—05 11:52 media
+drwxr—xr—x 1 root root 4096 2013—04—05 11:52 mnt
+drwxr—xr—x 1 root root 4096 2013—04—05 11:52 opt
+drwxr—xr—x 1 root root 4096 2013—04—05 12:03 .
+drwxr—xr—x 1 root root 4096 2013—04—05 12:03 ..
+drwxr—xr—x 1 root root 4096 2013—04—05 11:53 bin
+drwxr—xr—x 1 root root 4096 2013—04—05 12:02 boot
+drwxr—xr—x 1 root root 3060 2013—04—05 12:03 dev
+drwxr—xr—x 1 root root 4096 2013-04-05 12:06 etc
+drwxr—xr—x 1 root root 4096 2013-04—05 12:02 home
+lrwxrwxrwx 1 root root 32 2013-04-05 11:53 initrd.img —9 /boot/initrd.img—3.:
+drwxr—xr—x 1 root root 4096 2013—04-05 12:01 lib
+drwx—————— 1 root root 16384 2013-04-05 11:52 lost+found
+drwxr—xr—x 1 root root 4096 2013-04—05 11:52 media
+drwxr—xr—x 1 root root 4096 2013-04-05 11:52 mnt
+drwxr—xr—x 1 root root 4096 2013-04—05 11:52 opt
+dr—xr—xr—x 1 root root 0 2013-04—05 12:03 proc
+drwx-————— 1 root root 4096 2013—04—05 12:25 root
+drwxr—xr—x 1 root root 380 2013—04—05 12:06 run
+drwxr—xr—x 1 root root 4096 2013—04—05 12:03 sbin
+drwxr—xr—x 1 root root 4096 2013—04—05 11:52 selinux
+drwxr—xr—x 1 root root 4096 2013—04—05 11:52 srv
+drwxr—xr—x 1 root root 0 2013—04—05 12:03 sys
+-rwxr—xr—x 1 root root 500 2021-05—30 04:44 test2
+drwxrwxrwt 1 root root 4096 2013—04-05 12:17 tmp
+drwxr—xr—x 1 root root 4096 2013-04-05 11:52 usr
+drwxr—xr—x 1 root root 4096 2013—04-05 11:52 var
+lrwxrwxrwx 1 root root 28 2013—04—05 11:53 vmlinuz —9 /boot/vmlinuz—3.2.0—4—E
+rootasvr04:/# Connection to 10.0.2.15 closed by remote host.
+Connection to 10.0.2.15 closed.
