@@ -1,0 +1,103 @@
+sudo docker run —p 2222:2222 cowrie/cowriezlatest
+/cowrie/cowrie—env/lib/python3.11/site—packages/twisted/conch/ssh/transport.py:166: CryptographyDeprecationWarning: Blowfish has been deprecated
+b"blowfish—cbc": (a1gorithms.Blowfish, 16, modes.CBC),
+/cowrie/cowrie—env/1ib/python3.11/5ite—packages/twisted/conch/ssh/transport.py:116: CryptographyDeprecationWarning: CASTS has been deprecated
+b"cast128—cbc": (algorithms.CAST5, 16, modes.CBC),
+/cowrie/cowrie—env/1ib/python3.11/site—packages/twisted/conch/ssh/transport.py:115: CryptographyDeprecationWarning: Blowfish has been deprecated
+b"blowfish—ctr": (a1gorithms.Blowfish, 16, modes.CTR),
+/cowrie/cowrie—env/1ib/python3.11/site—packages/twisted/conch/ssh/transport.py:116: CryptographyDeprecationWarning: CASTS has been deprecated
+b"cast128—ctr": (a1gorithms.CAST5, 16, modes.CTR),
+2024-01-03T17:38:@6+@@@@ [-] Python Version 3.11.2 (main, Mar 13 2023, 12:18:29) [GCC 12.2.0]
+2024-01-03T17:38:@6+@@@@ [-] Twisted Version 23.1@.@
+2024-01-03T17:38:@6+@@@@ [-] Cowrie Version 2.5.0
+2024—01—03T17:38:@6+@@@@ [—] Loaded output engine: jsonlog
+2024—01—03T17:38:@6+@@@@ [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 23.1@.@ (/cowrie/cowrie—env/bin/python3 3.11.2) starting up.
+2024—01—03T17:38:@6+@@@@ [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2024-01-03T17:38:@6+@@@@ [-] CowrieSSHFactOI‘y starting on 2222
+2024—01—03T17:38:@6+@@@@ [cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory 
+2024—01—03T17:38:@6+@@@@ [—] Generating new RSA keypair...
+2024—01—03T17:38:@7+@@@@ [—] Generating new ECDSA keypair...
+2024—01—03T17:38:@7+@@@@ [—] Generating new ed25519 keypair...
+2024—01-03T17:38:@7+@@@@ [—] Ready to accept SSH connections
+2024—01—03T17:38:12+@@@@ [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie—hellman—group—exchange—sha1
+2024—01—03T17:38:12+@@@@ [cowrie.ssh.factory.CowrieSSHFactory] No moduli, no diffie—hellman—group—exchange—sha256
+2024—01—03T17:38:12+@@@@ [cowrie.ssh.factory.CowrieSSHFactory] New connection: 1@.@.2.15:58242 (172.17.@.2:2222) [sessionz 2b195a72b57e]
+2024—01—03T17:38:12+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Remote SSH version: SSH—2.@—0penSSH_9.4p1 Debian—l
+2024-01-03T17:38:12+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] SSH Client hassh fingerprint: 78C05d999799066a2b4554ce7b1585a6
+2024—01—03T17:38:12+@@@@ [cowrie.ssh.transport.HoneyPotSSHTransport#debug] kex alg=b'curve25519—sha256' key alg=b'ssh—ed25519'
+2024—01—03T17:38:12+@@@@ [cowrie.ssh.transport.HoneyPotSSHTransport#debug] outgoing: b'ae5128—ctr' b'hmac—sha2—256' b'none'
+2024—01—03T17:38:12+@@@@ [cowrie.ssh.transport.HoneyPotSSHTransport#debug] incoming: b'ae5128—ctr' b'hmac—sha2—256' b'none'
+2024—01—03T17:38:13+@@@@ [cowrie.ssh.transport.HoneyPotSSHTransport#debug] NEW KEYS
+2024—01—03T17:38:13+@@@@ [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh—userauth'
+2024—01—03T17:38:13+@@@@ [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'
+2024—01—03T17:38:17+@@@@ [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2024—01—03T17:38:13+@@00 [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'none'
+2024—01—03T17:38:17+@@@@ [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' trying auth b'password'
+2024—01—03T17:38:17+@@00 [HoneyPotSSHTransport,@,10.0.2.15] Could not read etc/userdb.txt, default database activated
+2024—01—03T17:38:17+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] login attempt [b'root'/b'cacaasd'] succeeded
+2024—01—03T17:38:17+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Initialized emulated server as architecture: linux—x64-lsb
+2024—01—03T17:38:17+@@@@ [cowrie.ssh.userauth.HoneyPotSSHUserAuthServer#debug] b'root' authenticated with b'password'
+2024—01—03T17:38:17+@@@@ [cowrie.ssh.transport.HoneyPotSSHTransport#debug] starting service b'ssh—connection'
+2024—01—03T17:38:17+@@@@ [cowrie.ssh.connection.CowrieSSHConnection#debug] got channel b'session' request
+2024—01—03T17:38:17+@@@0 [cowrie.ssh.session.HoneyPotSSHSession#info] channel open
+2024—01—03T17:38:17+@@@@ [cowrie.ssh.connection.CowrieSSHConnection#debug] got global b'no—more—sessionsaopenssh.com' request
+2024—01—03T17:38:17+@0@0 [twisted.conch.ssh.session#info] Handling pty request: b'xterm—256color' (32, 157, 0, 0)
+2024—01—03T17:38:17+@@0@ [SSHChannel session (0) on SSHService b'ssh—connection' on HoneyPotSSHTransport,@,10.0.2.15] Terminal Size: 157 32
+2024—01—03T17:38:17+@@@@ [SSHChannel session (0) on SSHService b'ssh—connection' on HoneyPotSSHTransport,@,10.0.2.15] request_env: LANG=C.UTF-8
+2024—01—03T17:38:17+@@@@ [twisted.conch.ssh.session#info] Getting shell
+2024-01-03T17:38:5@+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: whoami
+2024—01—03T17:38:5@+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: whoami
+2024-01-03T17:38:53+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: ls
+2024—01—03T17:38:53+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: 15
+2024-01-03T17:38:56+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: Cd ..
+2024—01—03T17:38:56+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: cd ..
+2024-01-03T17:38:58+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: ls
+2024—01—03T17:38:58+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: 15
+2024-01-03T17:39:@3+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: Cd user
+2024—01—03T17:39:@3+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: cd user
+2024-01-03T17:39:@8+000@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: Cd usr
+2024—01—03T17:39:@8+0@@0 [HoneyPotSSHTransport,@,10.0.2.15] Command found: cd usr
+2024-01-03T17:39:@9+00@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: ls
+2024—01—03T17:39:@9+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: 15
+2024—01-03T17:39:15+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: Cd games
+2024—01—03T17:39:15+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: cd games
+2024-01-03T17:39:17+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: ls
+2024—01—03T17:39:17+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: 15
+2024-01-03T17:39:21+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: Cd ..
+2024—01—03T17:39:21+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: cd ..
+2024-01-03T17:39:24+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: Cd local
+2024—01—03T17:40:@8+@@00 [HoneyPotSSHTransport,@,10.0.2.15] Command found: cd tmp
+2024—e1—03T17:4@:1@+000@ [HoneyPotSSHTransport,0,10.0.2.15] CMD: ls
+2024—Q1—03T17:40:10+0000 [HoneyPotSSHTransport,@,10.0.2.15] Command found: 15
+2024-01—93T17:4@:14+0@00 [HoneyPotSSHTransport,@,10.0.2.15] CMD: cd ..
+2024—01—03T17:40:14+0000 [HoneyPotSSHTransport,@,10.0.2.15] Command found: cd ..
+2e24—01—03T17:4@:23+0000 [HoneyPotSSHTransport,@,10.0.2.15] CMD: cd lost+found/
+2024—01—Q3T17:4@:23+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: cd lost+found/
+2024—01—03T17:4@:25+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: ls
+2024—01—03T17:4@:25+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: 15
+2024—01—03T17:4@:27+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: cd ..
+2024-01-03T17:4@:27+@0@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: cd ..
+2024—01—03T17:4@:32+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: cd media
+2024—01—03T17:4@:32+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: cd media
+2024—01—03T17:4@:33+0000 [HoneyPotSSHTransport,@,10.0.2.15] CMD: ls
+2024—01—03T17:4@:33+0000 [HoneyPotSSHTransport,@,10.0.2.15] Command found: 15
+2024—01—03T17:40:40+0000 [HoneyPotSSHTransport,@,10.0.2.15] CMD: cd cdrom
+2024—01—03T17:40:40+0000 [HoneyPotSSHTransport,0,10.0.2.15] Command found: cd cdrom
+2024-01—03T17:40:41+0000 [HoneyPotSSHTransport,0,10.0.2.15] CMD: ls
+2024—01—03T17:4@:41+0000 [HoneyPotSSHTransport,0,10.0.2.15] Command found: 15
+2024—01—03T17:4@:44+0000 [HoneyPotSSHTransport,0,10.0.2.15] CMD: cd ..
+2024—01—03T17:4@:44+0@@@ [HoneyPotSSHTransport,0,10.0.2.15] Command found: cd ..
+2024-01—03T17:4@:46+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: cd..
+2024-01-03T17:4@:46+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Can't find command cd..
+2024-01-03T17:4@:46+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command not found: cd..
+2024-01-03T17:4@:48+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: cd ..
+2024-01-03T17:4@:48+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: Cd ..
+2024-01-03T17:4@:54+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: cd testz
+2024-01-03T17:4@:54+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: Cd testz
+2024-01-03T17:41:@@+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: cat testz
+2024—01-03T17:41:@@+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: cat testz
+2024—01—03T17:41:11+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] CMD: 15 —al
+2024—01—03T17:41:11+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Command found: 15 —al
+2024—01—03T17:41:17+@@@@ [—] Timeout reached in HoneyPotSSHTransport
+2024—01—03T17:41:17+@@@@ [HoneyPotSSHTransport,@,10.0.2.15] Closing TTY Log: var/lib/cowrie/tty/ll10ad880e4092233a43b7d7cc45b6722e3ff620d98520269e856c0273e
+closing after 179seconds.
