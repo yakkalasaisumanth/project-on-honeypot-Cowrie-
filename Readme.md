@@ -12,7 +12,7 @@
 
 3. basic honey pot looks some what like this:-
 
-honeypot image
+- ![Honey Pot](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/honeypot.png)
 
 - the DMZ is where all you servers are located like ftp,dns,etc,.
 
@@ -28,13 +28,15 @@ honeypot image
 
 - in this project we are going to setup **COWRIE** honey pot.
 
-cowrie honey pot image
+- ![cowrie honeypot](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/cowrie%20honeypot.png)
 
 - there are so many pre determined honey pots to play with you can choose your favorite one.
 
 all in one honey pot image
 
 ## Brief Introduction Of Cowrie.
+
+- ![cowrie official](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/cowrie%20official%20page.png)
 
 - cowrie is ssh/telnet based honey pot.
 
@@ -54,6 +56,10 @@ all in one honey pot image
 
 - Honey pots list:- [HONEYPOTS](https://github.com/telekom-security/tpotce)
 
+- ![honeypots list](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/all%20in%20one%20honeypot.png)
+
+- ![TPOT LIST](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/cowrie%20honeypot.png)
+
 ## Installation Of Cowrie.
 
 - cowrie link :- [COWRIE](https://github.com/cowrie/cowrie)
@@ -71,6 +77,8 @@ all in one honey pot image
    docker run -p 2222:2222 cowrie/cowrie:latest
    ```
 
+   - ![COWRIE DOCKER](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/cowrie%20installation..png)
+
    - Before Running the command please make sure that you check the following.
    - [x] python 3
    - [x] docker
@@ -87,6 +95,8 @@ all in one honey pot image
    ```
    docker run -p 2222:2222 cowrie/cowrie:latest
    ```
+
+   - ![COWRIE SETUP](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/cowrie%20insstallation%20and%20setup.png)
 
    - all set you are good to go.
 
@@ -196,7 +206,7 @@ all in one honey pot image
 
    - I like to scan the entire network using Nmap you can use zenmap if you are using the widows machine.
 
-   - nmap image
+   - ![NMAP IMAGE](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/nmap%20scan.png)
 
    3. we can see that port 2222 is open and if we recall network basics the port 2222 is used for ssh.
 
@@ -213,6 +223,8 @@ all in one honey pot image
    ssh -p 2222 root@10.0.2.15
    ```
 
+   - ![SSH ROOT](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/sucessfuly%20connected.png)
+
    9. now it prompts for a password as attacker we will try a default passwords used for root/.
 
    10. lets use password as **"root"**
@@ -221,11 +233,11 @@ all in one honey pot image
 
    12. now lets run simple commands.
 
-   - image
+   - ![ATTACK SIMULATION](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/attacker%20attacks.png)
 
-   - image 2
+   - ![ATTACK SIMULATION1](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/attacker%20attacks%201.png)
 
-   - image 3
+   - ![ATTACK SIMULATION2](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/attacker%20attacks%202.png)
 
 ### Now From The Server Side.
 
@@ -237,6 +249,12 @@ all in one honey pot image
 #### Please Note The Following.
 
 1. as this is not a real server we can be safe from hackers and we can also learn their foot prints.
+
+- ![ATTACKER TRACKS](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/attacker%20tracks.png)
+
+- ![ATTACKER TRACKS1](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/attacker%20tracks1.png)
+
+- ![ATTACKER TRACKS2](https://github.com/yakkalasaisumanth/settingup-Cowrie-honeypot/blob/main/images/attacker%20tracks%202.png)
 
 2. of course some might guess that why hacker didn't suspect the logging attempt made.
 
